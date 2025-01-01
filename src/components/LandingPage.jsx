@@ -6,10 +6,10 @@ function LandingPage() {
     <div
       data-scroll
       data-scroll-section
-      data-scroll-speed="-0.5"
-      className="w-full h-screen lg:h-full overflow-hidden bg-zinc-900 pt-1"
+      data-scroll-speed="-0.4"
+      className="w-full min-h-screen flex justify-center flex-col overflow-hidden bg-zinc-900 pt-1 "
     >
-      <div className="textstructure md:my-28 px-14 h-1/2 md:h-max flex items-start justify-center flex-col ">
+      <div className="textstructure md:my-28 my-14 px-14 h-1/2 md:h-max flex items-start justify-center flex-col ">
         {['We Create', 'Eye-Opening', 'Presentations'].map((item, index) => (
           <div className="masker flex items-baseline " key={index}>
             {index === 1 && (
@@ -29,7 +29,7 @@ function LandingPage() {
           </div>
         ))}
       </div>
-      <div className="border-t-[1px] border-zinc-700 flex md:flex-row  flex-col items-start md:items-center   justify-evenly md:justify-between px-14 py-2 font-montreal text-sm md:text-base h-1/2 md:h-min">
+      <div className="border-t-[1px] border-zinc-700 flex md:flex-row flex-col items-start md:items-center   justify-evenly md:justify-between px-14 py-2 gap-4 md:gap-0 font-montreal text-sm md:text-base h-1/2 md:h-max">
         {[
           'For public and private companies',
           'From the first pitch to IPO',

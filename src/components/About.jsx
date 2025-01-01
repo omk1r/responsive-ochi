@@ -5,7 +5,7 @@ function About() {
     <div
       data-scroll
       data-scroll-section
-      data-scroll-speed="-0.1"
+      data-scroll-speed="-0.2"
       className="w-full bg-[#cdea68] rounded-tl-2xl rounded-tr-2xl text-black font-montreal"
     >
       <h1 className="lg:text-[3.25rem] md:text-5xl text-3xl font-normal leading-none px-12 pt-10 md:pt-20">

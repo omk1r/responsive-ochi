@@ -17,7 +17,7 @@ function Eyes() {
   });
 
   return (
-    <div className="hidden sm:block eyes w-full overflow-hidden border-2 border-red-500">
+    <div className="hidden sm:block eyes w-full overflow-hidden ">
       <div
         data-scroll
         data-scroll-speed="-0.7"
